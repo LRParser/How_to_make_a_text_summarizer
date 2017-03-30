@@ -3,11 +3,18 @@ This code is forked from llSourcel and https://github.com/udibr for "How to Make
 
 # Key Notes to Get it Running
 
-Caveat - I've only gotten as far as training at the moment, training has been running on GPU for two days now. Key changes:
+Caveat - I've only gotten as far as training at the moment, training has been running on GPU for two days now. Key changes/notes:
 
 * A parser was added for the Signal Media dataset referenced below named signal_media_parser.ipynb
-* User should take care to use Python 2.7, a requirement.txt file is provided
+* User should take care to use Python 2.7, a requirement.txt file is provided as an example configuratin
+* Misc import statements added to train.ipynb for numpy.
 * Users should take care not to use the latest Keras package as some functions have been moved to different namespaces. See requirements.txt
+
+# Order of Notebook Execution
+
+First run signal_media_parser.ipynb, with signalmedia-1m.jsonl in the directory where notebook is running
+Second run vocabulary_embedding.ipynb, with Glove files in ~/.keras/datasets
+Then you can run train.ipynb
 
 # Coding Challenge - Due Date - Thursday, March 23rd at 12 PM PST
 
