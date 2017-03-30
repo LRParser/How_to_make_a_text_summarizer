@@ -12,9 +12,9 @@ Caveat - I've only gotten as far as training at the moment, training has been ru
 
 # Order of Notebook Execution
 
-First run signal_media_parser.ipynb, with signalmedia-1m.jsonl in the directory where notebook is running
-Second run vocabulary_embedding.ipynb, with Glove files in ~/.keras/datasets
-Then you can run train.ipynb
+* First, run signal_media_parser.ipynb, with signalmedia-1m.jsonl in the directory where notebook is running
+* Second, run vocabulary_embedding.ipynb, with Glove files in ~/.keras/datasets
+* Third, you can run train.ipynb
 
 # Coding Challenge - Due Date - Thursday, March 23rd at 12 PM PST
 
