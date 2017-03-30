@@ -2,7 +2,8 @@
 This code is forked from llSourcel and https://github.com/udibr for "How to Make a Text Summarizer - Intro to Deep Learning #10" by Siraj Raval on Youtube
 
 # Key Notes to Get it Running
-* Caveat - I've only gotten as far as training at the moment, training has been running on GPU for two days now. Key changes:
+
+Caveat - I've only gotten as far as training at the moment, training has been running on GPU for two days now. Key changes:
 
 * A parser was added for the Signal Media dataset referenced below named signal_media_parser.ipynb
 * User should take care to use Python 2.7, a requirement.txt file is provided
